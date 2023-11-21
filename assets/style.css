@@ -48,7 +48,7 @@ header .header-icons svg{
 }
 .contenitore1 span{
     position: absolute;
-    bottom: 450px;
+    bottom: 480px;
     right: 0px;
     
    
@@ -61,16 +61,74 @@ header .header-icons svg{
     position: absolute;
     background-color: red;
     color: white;
-    bottom:40px;
+    bottom:80px;
     right: 300px;
-    font-size:large;
+    padding: 2px;
+    
 }
 
 .contenitore1 .sostenibilita{
     position: absolute;
     background-color: green;
     color: white;
-    font-size:large;
-    bottom:40px;
+    bottom:80px;
     right: 205px;
+    padding: 2px;
+}
+
+.contenitore1 .sconto1{
+    position: absolute;
+    background-color: red;
+    color: white;
+    bottom:80px;
+    right: 300px;
+    padding: 2px;
+}
+
+.contenitore1 .sostenibilita1{
+    position: absolute;
+    background-color: green;
+    color: white;
+    bottom:80px;
+    right: 254px;
+    padding: 2px;
+}
+
+.red{
+    color:red ;
+    font-size: large;
+
+}
+.testo-sconto{
+    display: flex;
+    gap: 10px;
+}
+.black{
+    text-decoration: line-through;
+    font-size: large;
+    
+}
+.footer-container{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    gap: 230px;
+    padding: 20px;
+}
+footer .footer-icons{
+    display: flex;
+    margin-top: 20px;
+    color: white;
+    gap: 10px;
+}
+footer .footer-icons svg{
+    width: 20px;
+}
+footer .footer-icons li{
+    list-style-type: none;
+    margin-top: -9px;
+}
+h2{
+    color: white;
+    font-size: 20px;
 }
