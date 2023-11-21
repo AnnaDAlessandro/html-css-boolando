@@ -29,20 +29,48 @@ header .header-icons svg{
     fill: white;
     width:20px ;
 }
-
 .image-3{
     display: flex;
+    justify-content:center;
+    gap: 50px;
     width: calc(100/3);
-    justify-content: center;
-    gap: 30px;
-    position: relative;
 }
-
-.image-3 figure img{
+.contenitore1 img{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
     height: 600px;
     padding-top: 100px;
+}
+.contenitore1{
+    position: relative;
+}
+.contenitore1 span{
+    position: absolute;
+    bottom: 450px;
+    right: 0px;
+    
+   
+}
+
+.contenitore1 span svg{
+    width: 40px;
+}
+.contenitore1 .sconto{
+    position: absolute;
+    background-color: red;
+    color: white;
+    bottom:40px;
+    right: 300px;
+    font-size:large;
+}
+
+.contenitore1 .sostenibilita{
+    position: absolute;
+    background-color: green;
+    color: white;
+    font-size:large;
+    bottom:40px;
+    right: 205px;
 }
